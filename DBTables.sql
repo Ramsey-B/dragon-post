@@ -9,15 +9,16 @@
 
   -- CREATE TABLE posts (
   --     id int NOT NULL AUTO_INCREMENT,
-  --     title VARCHAR(45) NOT NULL,
+  --     title VARCHAR(255) NOT NULL,
   --     body VARCHAR(255),
-  --     authorId VARCHAR(30) NOT NULL,
+  --     authorId VARCHAR(255) NOT NULL,
   --     PRIMARY KEY (id),
   --     INDEX (authorId),
 
   --     FOREIGN KEY (authorId)
   --       REFERENCES users(id)
-  -- );
+  --         ON DELETE CASCADE
+  -- )
 
     -- CREATE TABLE comments (
     --   id int NOT NULL AUTO_INCREMENT,
@@ -28,6 +29,7 @@
 
     --   FOREIGN KEY (postId)
     --     REFERENCES posts(id)
+    --     ON DELETE CASCADE
     -- )
 
 -- CREATE TABLE userfavs (

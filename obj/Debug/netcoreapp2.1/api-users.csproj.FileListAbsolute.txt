@@ -12,3 +12,17 @@ C:\Users\ramse\source\codeworks\api-users\obj\Debug\netcoreapp2.1\api-users.Asse
 C:\Users\ramse\source\codeworks\api-users\obj\Debug\netcoreapp2.1\api-users.RazorTargetAssemblyInfo.cache
 C:\Users\ramse\source\codeworks\api-users\obj\Debug\netcoreapp2.1\api-users.dll
 C:\Users\ramse\source\codeworks\api-users\obj\Debug\netcoreapp2.1\api-users.pdb
+C:\Users\ramse\source\codeworks\dragon-post\bin\Debug\netcoreapp2.1\api-users.deps.json
+C:\Users\ramse\source\codeworks\dragon-post\bin\Debug\netcoreapp2.1\api-users.runtimeconfig.json
+C:\Users\ramse\source\codeworks\dragon-post\bin\Debug\netcoreapp2.1\api-users.runtimeconfig.dev.json
+C:\Users\ramse\source\codeworks\dragon-post\bin\Debug\netcoreapp2.1\api-users.dll
+C:\Users\ramse\source\codeworks\dragon-post\bin\Debug\netcoreapp2.1\api-users.pdb
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.csprojAssemblyReference.cache
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.csproj.CoreCompileInputs.cache
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.RazorAssemblyInfo.cache
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.RazorAssemblyInfo.cs
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.AssemblyInfoInputs.cache
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.AssemblyInfo.cs
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.RazorTargetAssemblyInfo.cache
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.dll
+C:\Users\ramse\source\codeworks\dragon-post\obj\Debug\netcoreapp2.1\api-users.pdb

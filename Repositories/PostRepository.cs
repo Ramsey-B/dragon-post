@@ -24,7 +24,7 @@ namespace dragon_post.Repositories
 
     public IEnumerable<Post> GetAll()
     {
-      return _db.Query<Post>("SELECT * FROM posts");
+      return _db.Query<Post>("SELECT * FROM posts;");
     }
 
     public IEnumerable<Post> GetByUserId(string id)
@@ -45,6 +45,7 @@ namespace dragon_post.Repositories
                     title = @Title,
                     body = @Body
                 WHERE id = @Id
+                AND authorId = @AuthorId
             ", post);
       if (i > 0)
       {

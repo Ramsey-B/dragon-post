@@ -50,6 +50,8 @@ namespace dragon_post.Controllers
     {
       if(ModelState.IsValid)
       {
+        var user = HttpContext.User;
+        editPost.AuthorId = user.Identity.Name;
         return _db.EditPost(id, editPost);
       }
       return null;

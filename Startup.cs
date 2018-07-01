@@ -56,6 +56,7 @@ namespace dragon_post
       services.AddMvc();
       services.AddTransient<IDbConnection>(x => CreateDbContext());
       services.AddTransient<UserRepository>();
+      services.AddTransient<PostRepository>();
     }
 
     private IDbConnection CreateDbContext()
