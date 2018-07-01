@@ -1,4 +1,4 @@
-namespace API_Users.Models
+namespace dragon_post.Models
 {
     public class LoginUserModel
     {

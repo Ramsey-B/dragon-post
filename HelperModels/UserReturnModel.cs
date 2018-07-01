@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace API_Users.Models
+namespace dragon_post.Models
 {
     public class UserReturnModel
     {

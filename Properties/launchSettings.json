@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "api_users": {
+    "dragon_post": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

@@ -1,6 +1,6 @@
 using System.Data;
 
-namespace API_Users.Repositories
+namespace dragon_post.Repositories
 {
     public abstract class DbContext
     {

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace API_Users.Models
+namespace dragon_post.Models
 {
     public class RegisterUserModel
     {

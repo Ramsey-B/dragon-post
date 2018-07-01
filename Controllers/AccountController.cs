@@ -2,13 +2,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using API_Users.Models;
-using API_Users.Repositories;
+using dragon_post.Models;
+using dragon_post.Repositories;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API_Users.Controllers
+namespace dragon_post.Controllers
 {
   [Route("[controller]")]
   public class AccountController : Controller

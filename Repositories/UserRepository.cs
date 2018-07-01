@@ -1,10 +1,10 @@
 using System;
 using System.Data;
-using API_Users.Models;
+using dragon_post.Models;
 using Dapper;
 using MySql.Data.MySqlClient;
 
-namespace API_Users.Repositories
+namespace dragon_post.Repositories
 {
   public class UserRepository : DbContext
   {
