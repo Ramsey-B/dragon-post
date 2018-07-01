@@ -29,7 +29,7 @@ namespace dragon_post.Repositories
 
     public IEnumerable<Post> GetByUserId(string id)
     {
-      return _db.Query<Post>("SELECT * WHERE authorId = @id", new { id });
+      return _db.Query<Post>("SELECT * FROM posts WHERE authorId = @id", new { id });
     }
 
     public Post GetbyPostId(int id)
