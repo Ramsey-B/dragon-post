@@ -3,6 +3,7 @@ using System.Data;
 using dragon_post.Models;
 using Dapper;
 using MySql.Data.MySqlClient;
+using System.Collections.Generic;
 
 namespace dragon_post.Repositories
 {
@@ -116,6 +117,27 @@ namespace dragon_post.Repositories
         return "Good Job";
       }
       return "Umm nope!";
+    }
+
+    internal IEnumerable<Post> GetUserFavs(string id)
+    {
+      return _db.Query<Post>(@"
+      SELECT * FROM userfavs
+      INNER JOIN posts ON posts.id = userfavs.postId 
+      WHERE (userId = @id)", new{id});
+    }
+
+    internal bool AddFav(int postId, string userId)
+    {
+      int id = _db.Execute(@"
+        INSERT INTO userfavs (postId, userId)
+        VALUES (@postId, @userId);
+      ", new {
+        postId,
+        userId
+      });
+
+      return id > 0;
     }
   }
 }

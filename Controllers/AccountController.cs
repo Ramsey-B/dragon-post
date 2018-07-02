@@ -94,7 +94,23 @@ namespace dragon_post.Controllers
       return "How did you even get here?";
     }
 
+    [Authorize]
+    [HttpGet("favorites/{id}")]
+    public IEnumerable<Post> GetFavs(string id) 
+    {
+      return _db.GetUserFavs(id);
+    }
 
-
+    [Authorize]
+    [HttpPost("favorites/{id}")]
+    public string AddFav(int id)
+    {
+      bool result = _db.AddFav(id, HttpContext.User.Identity.Name);
+      if(result)
+      {
+        return "Added to Favorites!";
+      }
+      return "An Error Occurred! Try Again!";
+    }
   }
 }

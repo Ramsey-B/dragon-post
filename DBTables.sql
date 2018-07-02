@@ -42,7 +42,7 @@
 --   userId VARCHAR(255) NOT NULL,
 
 --   PRIMARY KEY (id),
---   INDEX (userid),
+--   INDEX (userId),
 
 --   FOREIGN KEY (postId)
 --     REFERENCES posts(id)
