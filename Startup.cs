@@ -58,6 +58,7 @@ namespace dragon_post
       services.AddTransient<UserRepository>();
       services.AddTransient<PostRepository>();
       services.AddTransient<CommentRepository>();
+      services.AddTransient<TagRepository>();
     }
 
     private IDbConnection CreateDbContext()

@@ -37,6 +37,15 @@ namespace dragon_post.Repositories
       return _db.QueryFirstOrDefault<Post>("SELECT * FROM posts WHERE id = @id;", new { id });
     }
 
+    public IEnumerable<Post> GetByTag(string tag)
+    {
+      var check = _db.Query<Post>(@"
+      SELECT * FROM tags
+      INNER JOIN posts ON posts.id = tags.postId 
+      WHERE (name = @tag)", new{tag});
+      return check;
+    }
+
     public Post EditPost(int id, Post post)
     {
       post.Id = id;

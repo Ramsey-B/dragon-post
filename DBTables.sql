@@ -54,10 +54,11 @@
 -- );
 
   -- CREATE TABLE tags (
-  --   tag VARCHAR(45) NOT NULL,
+  --   id int NOT NULL AUTO_INCREMENT,
+  --   name VARCHAR(45) NOT NULL,
   --   postId int NOT NULL,
 
-  --   PRIMARY KEY (tag),
+  --   PRIMARY KEY (id),
   --   INDEX (postId),
 
   --   FOREIGN KEY (postId)

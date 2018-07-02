@@ -44,6 +44,12 @@ namespace dragon_post.Controllers
       return _db.GetByUserId(id);
     }
 
+    [HttpGet("tags/{name}")]
+    public IEnumerable<Post> GetByTag(string name)
+    {
+      return _db.GetByTag(name);
+    }
+
     [HttpPut("{id}")]
     [Authorize]
     public Post EditPost(int id, [FromBody]Post editPost)
