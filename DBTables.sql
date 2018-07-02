@@ -29,6 +29,10 @@
 
     --   FOREIGN KEY (postId)
     --     REFERENCES posts(id)
+    --     ON DELETE CASCADE,
+
+    --   FOREIGN KEY (authorId)
+    --     REFERENCES users(id)
     --     ON DELETE CASCADE
     -- )
 
